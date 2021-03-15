@@ -207,5 +207,4 @@ def imprime_jogo_automatico(caminho):
         print(f'\n> {comando}\n')
         imprime_estado_jogo(estado)
 
-# imprime_jogo_automatico(joga_automatico(global_estado_jogo, [global_estado_jogo], [])[2])
 inicia_jogo()
