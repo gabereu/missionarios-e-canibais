@@ -172,7 +172,7 @@ def inicia_jogo():
             break
 
 def joga_automatico(estado_inicial, estados_ja_visitados=[], caminho_realizado=[]):
-    comandos = ["M C", "M M", "C C", "M", "C"]
+    comandos = ["M", "C", "M C", "M M", "C C"]
 
     estados_visitados = estados_ja_visitados.copy()
     caminho_atual = caminho_realizado.copy()
