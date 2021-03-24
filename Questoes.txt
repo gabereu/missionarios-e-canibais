@@ -1,0 +1,34 @@
+O problema de missionários e canibais é normalmente enunciado 
+como a seguir. Três missionários e três canibais estão em um lado de 
+um rio, juntamente com um barco que pode levar uma ou duas 
+pessoas. Descubra um meio de fazer todos atravessarem o rio sem 
+deixar que um grupo de missionários de um lado fique em número 
+menor que o número de canibais nesse mesmo lado do rio. Esse 
+problema é famoso em IA porque foi assunto do primeiro artigo que 
+abordou a formulação de problemas a partir de um ponto de vista 
+analítico (Amarel, 1968). 
+
+a. Formule o problema precisamente, fazendo apenas as 
+especificações necessárias para assegurar uma solução válida. 
+Faça um diagrama do espaço de estados completo. 
+
+    Espaço de estados representado pela figura Espaco_de_estados.png
+
+b. Implemente e resolva o problema de forma ótima, utilizando um 
+algoritmo de busca apropriado. É uma boa ideia verificar a 
+existência de estados repetidos? 
+
+    Problema resolvido utilizando busca em profundidade considerando 
+    os estados já visitados para não criar loops. Desse modo a busca segue 
+    a sequência de estados, de acordo com o espaço de estados representado 
+    na questão anterior, diretamente para o estado final na menor quantidade 
+    de comando possível.
+
+c. Por que você imagina que as pessoas têm dificuldades para 
+resolver esse quebra-cabeça, considerando que o espaço de 
+estados é tão simples?
+
+    Mesmo com o espaço de estados simples, na maioria dos estados há somente 
+    uma possibilidade que leva à um estado mais próximo do estado final e as 
+    outras possibilidades fazem o jogador retroceder ou até mesmo perder o 
+    jogo, dessa forma o jogador se confunde na resoluçao do quebra cabeça.
