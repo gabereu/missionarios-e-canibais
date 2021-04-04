@@ -121,7 +121,7 @@ def limpa_tela():
     os.system('cls' if os.name=='nt' else 'clear')
 
 def pega_comandos_usuario():
-    print('\nPara atrevessar o rio utilize M (missionário) e C (canibal) ou X para sair ou se estiver cansado tente CONCLUIR')
+    print('\nPara atrevessar o rio utilize M (missionário) e C (canibal), X para sair ou se estiver cansado tente CONCLUIR')
     print('Comandos: "M C", "C M", "M M", "C C", "M", "C", "X", "CONCLUIR"')
     while True:
         comando = input('> ').upper().strip()

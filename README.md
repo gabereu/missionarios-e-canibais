@@ -10,7 +10,7 @@
 
 ### Jogo desenvolvido para trabalho da disciplina de Inteligência Artificial do curso de Ciência da Computação da UFCAT
 
-- Questões no arquivo Questoes.txt
+- Questões no arquivo `Questoes.txt`
 
 ### Aluno:
 

@@ -12,17 +12,25 @@ a. Formule o problema precisamente, fazendo apenas as
 especificações necessárias para assegurar uma solução válida. 
 Faça um diagrama do espaço de estados completo. 
 
-    Espaço de estados representado pela figura Espaco_de_estados.png
+    Espaço de estados representado pela figura Espaco_de_estados.png.
+    Cada estado representa um estado válido do jogo e seu conteúdo 
+    segue a seguinte representação: XMZC - YMWC onde X é a quantidade de 
+    missionários na esquerda, Z a quantidade de canibais na esquerda, Y 
+    a quantidade de missionários na direita e W a quantidade de canibais 
+    na direita. O símbulo - separa os dois lados do rio, sendo o lado 
+    esquero da respresentação equivalente ao lado esquerdo do rio, e o lado 
+    direito da mesma forma, então, quando um lado está sublinhado a 
+    representação está indicando que o barco está nesse lado do rio.
 
 b. Implemente e resolva o problema de forma ótima, utilizando um 
 algoritmo de busca apropriado. É uma boa ideia verificar a 
 existência de estados repetidos? 
 
-    Problema resolvido utilizando busca em profundidade considerando 
+    Problema resolvido utilizando busca em profundidade, considerando 
     os estados já visitados para não criar loops. Desse modo a busca segue 
     a sequência de estados, de acordo com o espaço de estados representado 
     na questão anterior, diretamente para o estado final na menor quantidade 
-    de comando possível.
+    de comandos possível.
 
 c. Por que você imagina que as pessoas têm dificuldades para 
 resolver esse quebra-cabeça, considerando que o espaço de 
